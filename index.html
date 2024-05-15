@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <!--Metadatos-->    
+
+    <meta charset="utf-8">
+    <meta name="author" content="Nelson Rubio">
+    <meta name="description" content="Portafolio de desarrollo Web de Nelson Rubio">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Título-->
+
+    <title>Nelson Rubio | Desarrollo Web Front-End </title>
+
+    <!--Favicon-->
+
+    <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+
+    <!--Bootstrap-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <!--CSS-->
+
+    <link href="style.css" rel="stylesheet">
+
+    <!--íconos Bootstrap-->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<!--Google fonts-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&family=Share+Tech+Mono&display=swap==Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+</head>
+    <body>
+        <!--Barra de navegación-->
+
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbar-toggler">
+                <a class="navbar-brand" href="#">
+                    <img src="imagenes/icono.png" width="80" alt="Logo de la página Web">
+                </a>
+                <ul class="navbar-nav d-flex justify-content-center align-items.center">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Proyectos">Proyectos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Testimonios">Testimonios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Contacto">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+        <!--Sección Hero-->
+
+        <section class="hero align-items-stretch">
+            <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+                <img class="hero-imagen-desarrollador" src="imagenes/photo.png" alt="Foto de Nelson Rubio">
+                <h1>Hola, soy Nelson Rubio</h1>
+                <h2><b></b>Desarrollo sitios web y publico artículos sobre tecnología y programación.</h2>
+            </div>
+            <div class="hero-inferior">
+                <img class= "hero-inferior-imagen img-fluid" src="imagenes/hero-inferior.svg" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+            </div>
+            <video muted autoplay loop>
+              <source src="video/video1.mp4"
+              type="video/mp4">
+            </video>
+            <div class="capa"></div>
+        </section>
+        <!--Sobre mi-->
+
+        <section id="sobre-mi" class="sobre-mi seccion-oscura">
+        <div class="contenedor">
+            <h2 class="seccion-titulo">Conoce a Nelson Rubio</h2>
+            <p class="seccion-texto">Tecnólogo en formación en Análisis y Desarrollo de Software con experiencia comercial en los sectores de Telecomunicaciones, Fintech y Bancario. Poseo habilidades en lenguajes de programación como HTML, CSS y JavaScript, complementadas con conocimientos en Bootstrap y SQL. Mi perfil me permite integrarme a equipos de trabajo y contribuir al desarrollo e implementación de proyectos actuales y nuevos, aportando valor a la organización.</p>
+        </div>
+        </section>
+        
+        <!--Experiencia-->
+
+        <section class="experiencia seccion-clara">
+        <div class="container text-center">
+          <div class="row">
+            <!--Desarrollo Web-->
+            <div class="columna col-12 col-md-4">
+              <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo"> Desarrollo Web </p>
+            <p> He logrado consolidar mis conocimientos con certificaciones en <b>HTML</b>, <b>CSS</b>, y <b>JavaScript</b>. Con aprendizaje autodidacta me he familiarizado con Frameworks y Librerías como <b>Bootstrap</b> y <b>ReactJs</b>.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">React</span>
+            </div>
+          </div>
+            <!--Artículos-->
+            <div class="columna col-12 col-md-4">
+              <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo"> Artículos </p>
+            <p> Para mantenerme a la vanguardia de las nuevas tecnologías y compartir mi conocimiento con los demás, leo y publico artículos actualizados sobre las últimas tendencias del sector IT desde la plataforma freeCodeCamp</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Escribir</span>
+              <span class="badge text-bg-primary">Editar</span>
+              <span class="badge text-bg-primary">Blogs</span>
+            </div>
+            </div>
+            <!--Estudiante-->
+            <div class="columna col-12 col-md-4">
+              <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo"> Estudiante </p>
+            <p> Con el objetivo de ampliar mis habilidades y brindar un mayor valor a la empresa, me encuentro cursando de forma proactiva una especialización en análisis de datos de Google y Desarrollo Front-end de Meta en la plataforma Coursera.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Desarrollo Web</span>
+              <span class="badge text-bg-primary">Análisis de Datos</span>
+              <span class="badge text-bg-primary">SQL</span>
+            </div>
+            </div>
+          </div>
+        </div>
+        </section>
+
+        <!--Proyectos-->
+
+        <section id="Proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+        <h2 class="seccion-titulo texto-negro"> Mis proyectos</h2>
+        <h3 class="seccion-descripcion ">Estos son algunos proyectos que he creado recientemente...</h3>
+
+        <!--Galeria de proyectos-->
+        <div class="container text-center proyectos-contenedor">
+          <div class="row">
+
+            <!--Proyecto 1-->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="proyecto">
+                <img src="imagenes/proyecto1.png" alt="Proyecto 1">
+                <div class="overlay">
+                  <p>Proyecto 1</p>
+                  <div class="iconos-contenedor">
+                    <a href="https://github.com/nelsonru18/game-snake.git" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-github"></i>
+                    </a>
+                    <a href="https://nelsonru18.github.io/game-snake/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-laptop"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Proyecto 2-->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="proyecto">
+                <img src="imagenes/proyecto2.png" alt="Proyecto 2">
+                <div class="overlay">
+                  <p>Proyecto 2</p>
+                  <div class="iconos-contenedor">
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-github"></i>
+                    </a>
+                    <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-laptop"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Proyecto 3-->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="proyecto">
+                <img src="imagenes/proyecto3.png" alt="Proyecto 3">
+                <div class="overlay">
+                  <p>Proyecto 3</p>
+                  <div class="iconos-contenedor">
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-github"></i>
+                    </a>
+                    <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-laptop"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Proyecto 4-->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="proyecto">
+                <img src="imagenes/proyecto4.png" alt="Proyecto 4">
+                <div class="overlay">
+                  <p>Proyecto 4</p>
+                  <div class="iconos-contenedor">
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-github"></i>
+                    </a>
+                    <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-laptop"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Proyecto 5-->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="proyecto">
+                <img src="imagenes/proyecto5.png" alt="Proyecto 5">
+                <div class="overlay">
+                  <p>Proyecto 5</p>
+                  <div class="iconos-contenedor">
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-github"></i>
+                    </a>
+                    <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-laptop"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Proyecto 6-->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="proyecto">
+                <img src="imagenes/proyecto6.png" alt="Proyecto 6">
+                <div class="overlay">
+                  <p>Proyecto 6</p>
+                  <div class="iconos-contenedor">
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-github"></i>
+                    </a>
+                    <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-laptop"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+        </a>
+        </section>
+
+        <!--Artículos-->
+        <section class="articulos justify-content-start">
+          <h2 class="seccion-titulo texto-negro">Artículos</h2>
+          <div class="card">
+            <div class="card-header">
+              Más recientes
+            </div>
+            <ul class="list-group list-group-flush">
+              <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+                <li class="list-group-item">Fredy E Mena: De desarrollador de videojuegos a líder comunitario</li>
+              </a>
+              <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+                <li class="list-group-item">Cómo empezar en el campo del análisis de datos: Guía para principiantes</li>
+              </a>
+              <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+                <li class="list-group-item">Vectores en C++ : Cómo inicializar un vector en un constructor en C++</li>
+              </a>
+              <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+                <li class="list-group-item">Como conectarse a AWS RDS desde AWS Lambda</li>
+              </a>
+              <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+                <li class="list-group-item">Héctor de León: Creador de Contenido y Autor - Compromiso Mexicano con la Veracidad</li>
+              </a>
+            </ul>
+          </div>
+
+          <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+            <button type="button" class="btn btn-info">
+              Ver más artículos
+              <i class="bi bi-arrow-right-circle-fill"></i>
+            </button>
+            </a>
+
+        </section>
+
+        <!--Testimonios-->
+        <section id="Testimonios" class="testimonios seccion-clara">
+          <h2 class="seccion-titulo">Testimonios</h2>
+          <h3 class="seccion-descripcion">Estos son algunos testimonios de mis clientes</h3>
+        
+        <!--Carrusel-->
+        <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container">
+                <img class="testimonio-imagen rounded-circle" src="imagenes/cliente1.png" alt="Foto de Carolina">
+                <p class="testimonio-texto">"Trabajar con Nelson en la creación de mi sitio web fue una experiencia fantástica. Su atención meticulosa a los detalles y su habilidad para captar mis expectativas me animaron. Nelson no solo creó un sitio web fantástico, sino que también brindó soporte continuo y soluciones innovadoras a lo largo del proceso. Realmente recomendaría sus servicios a cualquier persona que busque profesionalismo y calidad."</p>
+                <div class="testimonio-info">
+                  <p class="Cliente text-center">Carolina</p>
+                  <p class="Cargo">Gerente de proyectos</p>
+              </div> 
+            </div> 
+              </div>
+            <div class="carousel-item">
+              <div class="container">
+                <img class="testimonio-imagen rounded-circle" src="imagenes/cliente2.png" alt="Foto de Dean">
+                <p class="testimonio-texto">"Trabajar con Nelson en el desarrollo de mi sitio web fue una experiencia verdaderamente gratificante. Cada aspecto del proyecto reflejó su enfoque centrado en el cliente y su enfoque en la excelencia. Me aseguré de que cada detalle se abordara con cuidado y precisión desde la primera reunión hasta la entrega final. Su capacidad para combinar diseño y funcionalidad creó un sitio web que superó mis expectativas".</p>
+                <div class="testimonio-info">
+                  <p class="Cliente text-center">Dean</p>
+                  <p class="Cargo">CEO Software IT</p>
+              </div>
+            </div>
+          </div> 
+            <div class="carousel-item">
+              <div class="container">
+                <img class="testimonio-imagen rounded-circle" src="imagenes/cliente3.png" alt="Foto de Selena">
+                <p class="testimonio-texto">"Nelson es realmente impresionante. Su capacidad para traducir mis ideas a la realidad virtual y su enfoque colaborativo fueron realmente impresionantes. Estuve presente en cada paso, asegurándose de que mi sitio web reflejara mis valores y marca desde el diseño inicial hasta el lanzamiento final. Es evidente que tiene experiencia en desarrollo web en cada aspecto del proyecto. ¡Gracias, Nelson, por hacer que mi visión cobre vida de una manera tan impactante!"</p>
+                <div class="testimonio-info">
+                  <p class="Cliente text-center">Selena</p>
+                  <p class="Cargo">Administradora de Empresas</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+        </section>
+
+        <!--Sección de contacto-->
+
+        <section id="Contacto" class="contacto seccion-oscura">
+          <div class="container">
+            <div class="container text-center rectangulo d-flex justify-content-evenly">
+              <div class="row">
+                <div class="col-12 col-md-4 seccion-titulo">
+                  ¡Hablemos!
+                </div>
+                <div class="col-12 col-md-4 descripcion">
+                  Cupos limitados para consultas gratuitas. No te pierdas esta oportunidad, contactame hoy mismo. ¡Comencemos tu proyecto! Llevemos tu visión a la realidad.
+                </div>
+                <div class="col-12 col-md-4">
+                  <a href="mailto:nelsonru18@gmail.com">
+                    <button type="button">
+                      Contanto
+                      <i class="bi bi-envelope-at-fill"></i>
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--Pie de página (footer)-->
+
+        <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+          <img class="footer-logo" src="imagenes/icono.png" alt="Logo del Portafolio">
+          <p class="footer-texto text-center">Me encantaría colaborar contigo en un proyecto.<br>¿Qué te gustaría crear?</p>
+          <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+            <a href="https://twitter.com/?lang=es" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-twitter"></i>
+            </a>
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://www.facebook.com/?locale=es_LA" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a href="mailto:nelsonru18@gmail.com" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-envelope"></i>
+            </a>
+          </div>
+          <div class="derechos-de-autor">Creado por Nelson Rubio (2024) &#169;</div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+
+</html>
